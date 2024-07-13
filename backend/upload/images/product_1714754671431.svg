@@ -1,0 +1,13 @@
+from sketchpy import canvas
+import turtle
+t=turtle.Turtle()
+t.screen.bgcolor('black')
+t.pensize(3)
+t.speed(800)
+t.shape('turtle')
+# s=Screen()
+# s.bgcolor("black")
+
+t=canvas.sketch_from_svg("LordShiva/shivji.svg",scale=4)
+t.draw()
+turtle.done()
